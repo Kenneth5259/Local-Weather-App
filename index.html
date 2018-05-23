@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--This web app uses the free code camp api and is meant to be used to complete their local weather application project
+	Special thanks to erikflowers for providing Weather Icons for this application. If you like the icons, please support
+	them over at http://erikflowers.github.io/weather-icons/
+-->
+<html>
+<head>
+	<title>Weather App</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="scripts/weather.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="container" id="app-container">
+			<h2>Weather Tracker</h2>
+			<p><span id="city">, </span><span id="country"></span></p> <!-- city and country based on location -->
+			<p><span id="temp"></span> <span id="tempUnit"></span></p> <!-- temperature and temperature unit-->
+			<p><span id="weather"></span></p> <!-- weather description-->
+			<span class="wi wi-cloud hide icon" id="cloudy"></span> <!--cloudy day-->
+			<span class="wi wi-day-sunny hide icon" id="clear"></span> <!--sunny day-->
+			<span class="wi wi-sprinkle hide icon" id="drizzle"></span> <!--drizzle day-->
+			<span class="wi wi-rain hide icon" id="rain"></span> <!--rain day-->
+			<span class="wi wi-thunderstorm hide icon" id="thunderstorm"></span> <!-- thunderstorm -->
+			<span class="wi wi-snow hide icon" id="snow"></span> <!--snow day-->
+		</div>
+	</div>
+</body>
+</html>

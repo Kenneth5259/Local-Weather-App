@@ -1,0 +1,23 @@
+body {
+	background-image: url(images/clear.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+h2 {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-size: 22pt;
+}
+.icon {
+	padding: 1em;
+	font-size: 30pt;
+}
+#app-container {
+	position: center;
+	text-align: center;
+	font-size: 16pt;
+	color: white;
+}
