@@ -1,10 +1,18 @@
+html{
+	height: 100%;
+}
 body {
-	background-image: url(images/clear.jpg);
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #23558A;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient(#23558A, #8ECCF3);
+    background: -moz-linear-gradient(#23558A, #8ECCF3);
+    background: -ms-linear-gradient(#23558A, #8ECCF3);
+    background: -o-linear-gradient(#23558A, #8ECCF3);
+    background: linear-gradient(#23558A, #8ECCF3);
 }
 h2 {
 	padding-top: 2em;
